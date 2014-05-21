@@ -15,8 +15,6 @@ body {
 
 /* svg elements */
 
-g.node {  cursor: pointer; }
-
 line.link {
     fill: none;
     stroke: rgb(226, 88, 30);
