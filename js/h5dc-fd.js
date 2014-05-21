@@ -234,7 +234,7 @@
             tp;
 
         txt = '<p><strong><em><a href="http://html5devconf.com/' + d.spkrHref +'" target="_blank">' + d.speaker + '</a></em></strong></p>' +
-              '<p><a href="http://html5devconf.com/' + d.sessHref +'" target="_blank">' + d.session + '</p>' +
+              '<p><a href="http://html5devconf.com/' + d.sessHref +'" target="_blank">' + d.session + '</a></p>' +
               '<p>' + d.sessTime + '</p>' +
               '<p>' + d.room + '</p>';
 
