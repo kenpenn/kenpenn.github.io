@@ -1,0 +1,266 @@
+/*
+ * styles for force-directed graph example
+ * coded by Ken Penn
+ */
+
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    box-sizing: border-box;
+    color: #444;
+}
+
+/* force directed graph styles */
+
+/* svg elements */
+
+g.node {  cursor: pointer; }
+
+line.link {
+    fill: none;
+    stroke: rgb(226, 88, 30);
+    stroke-width: 1.5px;
+}
+
+g.speaker { cursor: pointer; }
+
+.fd-icon-text-shadow {
+    font-size: .8rem;
+    fill: white;
+}
+
+
+.fd-icon-text {
+    font-size: .8rem;
+    fill: rgb(226, 88, 30);
+}
+
+/* html elements */
+
+.fd-box {
+    background: url(../img/bg_slash.gif) repeat;
+    color: #7d9c9c;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.fd-svg-box {
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    bottom: 60px;
+    left: 5%;
+}
+.fd-ctrl-box {
+    padding: 15px 15px 15px 5%;
+}
+
+.fd-ctrl-box span {
+    color: #7d9c9c;
+    font-size: 1.2rem;
+}
+
+.fd-btns { display: inline; }
+
+.fd-btn {
+    background: -webkit-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:    -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:     -ms-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:      -o-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:         linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline;
+    font-size: .8rem;
+    line-height: 24px;
+    margin: 2% 3%;
+    max-width: 120px;
+    min-height: 24px;
+    padding: 3px 5px;
+    text-align: center;
+}
+
+.fd-slug {
+    color: #7d9c9c;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    right: 5%;
+}
+
+.fd-slug h2 {
+    color: #7d9c9c;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.fd-slug h3 {
+    font-size: 1.1rem;
+    margin: 3px 5px 10px 12px;
+    float: left;
+}
+
+.fd-slug.icons {
+    float: right;
+    height: 25px;
+    width: 70px;
+}
+
+.fd-slug-icons .icon {
+    display: inline-block;
+    margin: 3px;
+}
+
+.fd-popup {
+    background: rgb(238,238,238);
+    background-image:    -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background-image:         linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: move;
+    font-size: .8rem;
+    line-height: 24px;
+    min-height: 24px;
+    opacity: 0;
+    position: absolute;
+    padding: 3px 5px;
+}
+
+.fd-popup p {
+    margin: 5px 15px;
+    -webkit-user-select: none;
+    color: #7d9c9c;
+}
+
+.fd-popup p:nth-of-type(1) {
+   white-space: nowrap;
+}
+
+.fd-popup a {
+    color: #7d9c9c;
+    text-decoration: none;
+}
+
+.fd-close-btn {
+    background: url(../img/close-btn.png) no-repeat;
+    cursor: pointer;
+    float: right;
+    margin: 6px 6px 10px 10px;
+}
+
+
+/* ============================ */
+/* == SPEAKER SPRITE CLASSES == */
+/* ============================ */
+.speaker-name {
+    color: magenta;
+    font-size: 2rem;
+}
+
+div.img {
+    display: inline-block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-image: url(../img/h5dc-may2014-headshots-sprite-020.jpg);
+    width: 120px;
+    height: 120px;
+}
+
+.pic-node : {
+    border: 2px solid #ddd;
+    border-radius:60px;
+    width: 120px;
+    height: 120px;
+}
+
+.0 { background-position: -0px -0px}
+.adnan_wahab { background-position: -120px -0px}
+.adrian_roselli { background-position: -240px -0px}
+.alex_russell { background-position: -360px -0px}
+.anthony_phillips { background-position: -480px -0px}
+.ari_lerner { background-position: -600px -0px}
+.arin_sime { background-position: -720px -0px}
+.ash_blue { background-position: -840px -0px}
+.ben_farrell { background-position: -960px -0px}
+.benjamin_farrell { background-position: -1080px -0px}
+.benoit_marchant { background-position: -1200px -0px}
+.bianca_gandolfo { background-position: -1320px -0px}
+.brad_westfall { background-position: -1440px -0px}
+.christian_heilmann { background-position: -1560px -0px}
+.conrad_irwin { background-position: -1680px -0px}
+.dan_lynch { background-position: -1800px -0px}
+.daniel_austin { background-position: -1920px -0px}
+.dave_arel { background-position: -0px -120px}
+.david_alfaro { background-position: -120px -120px}
+.david_fetterman { background-position: -240px -120px}
+.david_greenspan { background-position: -360px -120px}
+.demian_borba { background-position: -480px -120px}
+.don_olmstead { background-position: -600px -120px}
+.doris_chen { background-position: -720px -120px}
+.erin_swenson-healey { background-position: -840px -120px}
+.frank_greco { background-position: -960px -120px}
+.frederick_tubiermont { background-position: -1080px -120px}
+.ian_jacobs { background-position: -1200px -120px}
+.ilya_grigorik { background-position: -1320px -120px}
+.jafar_husain { background-position: -1440px -120px}
+.jason_aden { background-position: -1560px -120px}
+.jeff_jenkins { background-position: -1680px -120px}
+.jen_kramer { background-position: -1800px -120px}
+.jeremy_wilken { background-position: -1920px -120px}
+.joe_marini { background-position: -0px -240px}
+.johnny_halife { background-position: -120px -240px}
+.jonathan_smiley { background-position: -240px -240px}
+.jonnie_spratley { background-position: -360px -240px}
+.julian_bucknall { background-position: -480px -240px}
+.kevin_nilson { background-position: -600px -240px}
+.kik { background-position: -840px -240px}
+.kianosh_pourian { background-position: -720px -240px}
+.kyle_simpson { background-position: -960px -240px}
+.lisa_deluca { background-position: -1080px -240px}
+.liz_lee { background-position: -1200px -240px}
+.marc_grabanski { background-position: -1320px -240px}
+.mark_lassoff { background-position: -1440px -240px}
+.mark_stuart { background-position: -1560px -240px}
+.masa_tanaka { background-position: -1680px -240px}
+.mat_groves { background-position: -1800px -240px}
+.mathew_groves { background-position: -1920px -240px}
+.mehul_harry { background-position: -0px -360px}
+.michael_anthony { background-position: -120px -360px}
+.michael_dailly { background-position: -240px -360px}
+.michael_jackson { background-position: -360px -360px}
+.mike_acton { background-position: -480px -360px}
+.nick_desaulniers { background-position: -600px -360px}
+.parashuram_narasimhan { background-position: -720px -360px}
+.parris_khachi { background-position: -840px -360px}
+.paul_fischer { background-position: -960px -360px}
+.peter-paul_koch { background-position: -1080px -360px}
+.peter_jensen { background-position: -1200px -360px}
+.ray_villalobos { background-position: -1320px -360px}
+.reinaldo_ferraz { background-position: -1440px -360px}
+.richard_clark { background-position: -1560px -360px}
+.rob_dodson { background-position: -1680px -360px}
+.rodrigo_fernandez { background-position: -1800px -360px}
+.ross_gerbasi { background-position: -1920px -360px}
+.ross_mckegney { background-position: -0px -480px}
+.ryan_anklam { background-position: -120px -480px}
+.sirar_salih { background-position: -240px -480px}
+.steve_newcomb { background-position: -360px -480px}
+.steve_souders { background-position: -480px -480px}
+.tom_coleman { background-position: -600px -480px}
+.tom_wiltzius { background-position: -720px -480px}
+.tony_parisi { background-position: -840px -480px}
+.tony_phillips { background-position: -960px -480px}
+.tyler_benziger { background-position: -1080px -480px}
+.volkan_ozcelik { background-position: -1200px -480px}
+.wayne_carter { background-position: -1920px -480px}
+.xavier_damman { background-position: -1320px -480px}
+.yurii_luchaninov { background-position: -1440px -480px}
