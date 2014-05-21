@@ -15,13 +15,13 @@ body {
 
 /* svg elements */
 
+g.speaker {  cursor: pointer; }
+
 line.link {
     fill: none;
     stroke: rgb(226, 88, 30);
     stroke-width: 1.5px;
 }
-
-g.speaker { cursor: pointer; }
 
 .fd-icon-text-shadow {
     font-size: .8rem;
@@ -69,6 +69,7 @@ g.speaker { cursor: pointer; }
 .fd-btns { display: inline; }
 
 .fd-btn {
+    background: white;
     background: -webkit-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
     background:    -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
     background:     -ms-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
@@ -127,6 +128,7 @@ g.speaker { cursor: pointer; }
     background:   linear-gradient(to bottom, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
     border: 1px solid #ddd;
     border-radius: 4px;
+    color: #647f7f;
     cursor: move;
     font-size: .8rem;
     line-height: 24px;
@@ -139,7 +141,6 @@ g.speaker { cursor: pointer; }
 .fd-popup p {
     margin: 5px 15px;
     -webkit-user-select: none;
-    color: #7d9c9c;
 }
 
 .fd-popup p:nth-of-type(1) {
@@ -147,7 +148,7 @@ g.speaker { cursor: pointer; }
 }
 
 .fd-popup a {
-    color: #7d9c9c;
+    color: #647f7f;
     text-decoration: none;
 }
 
@@ -156,6 +157,20 @@ g.speaker { cursor: pointer; }
     cursor: pointer;
     float: right;
     margin: 6px 6px 10px 10px;
+}
+
+#pop-q {
+    float: right;
+    height: 24px;
+    width: 24px;
+    border-radius: 12px;
+    color: white;
+    background: #7d9c9c;
+    text-align: center;
+    margin-right: 5%;
+    font-size: .9rem;
+    font-weight: bold;
+    line-height: 24px;
 }
 
 

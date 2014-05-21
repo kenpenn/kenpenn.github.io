@@ -32,6 +32,9 @@
         fd.genTimes();
         fd.genRooms();
 
+        // explanatory popup
+        d3.select('#pop-q').on('click', fd.popQ),
+
         // resize and restart the graph after window resize
         window.addEventListener('resize', fd.debounce(fd.resize, 200, false));
 
@@ -74,7 +77,6 @@
         fd.setDims();
         fd.icon = 'clock';
         fd.root = fd.clone(fd.timeTree);
-//        fd.slugDsp([fd.icon, 'Times','Speaker']);
         fd.update('clock');
       },
 
@@ -97,6 +99,7 @@
         fd.setDims();
         fd.icon = 'compass';
         fd.root = fd.clone(fd.roomTree);
+//        fd.slugDsp(['Room','Speaker']);
         fd.update('compass');
       },
 
@@ -193,7 +196,6 @@
                .attr('x2', function(d) { return d.target.x; })
                .attr('y2', function(d) { return d.target.y; });
 
-        // keep the nodes in the box
         fd.node.attr("transform", function(d) {
           var dx = Math.max(30, Math.min(fd.width - 30, d.x)),
               dy = Math.max(30, Math.min(fd.height - 30, d.y));
@@ -309,6 +311,52 @@
                    .duration(200)
                      .style('opacity', .9);
         }
+      },
+
+      // quickly hacked explanatory popup
+      popQ  : function (d) {
+        var txt = '', // popup text
+            popup,
+            closeBtn = document.querySelector('#fd-templates .fd-close-btn')
+                               .cloneNode(true),
+            tp;
+
+        txt = '<p><strong><em><a href="http://html5devconf.com" target="_blank">Force-Directed Graph for HTML5 Developers Conference</em></strong></p>' +
+              '<p>Clicking on the top left buttons redraws the graph</p>' +
+              '<p>Resizing the window redraws the graph</p>' +
+              '<p>Clicking on a speaker\'s picture opens a draggable popup lke this one</p>' +
+              '<p>Clicking on the speaker\'s name in the popup opens their page at <a href="http://html5devconf.com/sessions.html" target="_blank">html5devconf.com/sessions.html</p>' +
+              '<p>Clicking on the session title in the popup opens the session at <a href="http://html5devconf.com/sessions.html" target="_blank">html5devconf.com/sessions.html</p>';
+
+        d3.select('.fd-svg-box')
+          .append('div')
+          .attr('class', 'fd-popup')
+          .attr('id', 'pop-desc')
+          .style('top', function () { return '20px'; })
+          .style('right', function () { return '20px'; })
+          .html(txt);
+
+        popup = d3.select('#pop-desc')
+                  .transition()
+                    .duration(300)
+                    .style('opacity', .9);
+
+        popup.node().insertBefore(closeBtn, popup.node().firstChild);
+        tp = popup.node().querySelector('p');
+        popup.node().style.width = (tp.clientWidth + 60) + 'px';
+
+        closeBtn.addEventListener('click', function (evt) {
+          var popup = this.parentElement;
+
+          d3.select(popup)
+            .transition()
+              .duration(500)
+              .style('opacity', 0)
+              .style('cursor', 'default')
+            .remove();
+        });
+
+        fd.popDrag(popup.node());
       },
 
       sortByKeys : function (keys, dataSet) {
