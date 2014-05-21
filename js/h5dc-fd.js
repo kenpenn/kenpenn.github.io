@@ -97,7 +97,6 @@
         fd.setDims();
         fd.icon = 'compass';
         fd.root = fd.clone(fd.roomTree);
-//        fd.slugDsp(['Room','Speaker']);
         fd.update('compass');
       },
 
@@ -181,8 +180,6 @@
           this.appendChild(group.node());
             if (!fd.once && !d.spriteClass) {
               fd.once = true;
-              console.log(JSON.stringify(group.node().getBoundingClientRect()));
-              console.log(JSON.stringify(group.select('.fd-text').node().getBoundingClientRect()))
             }
         });
 
@@ -196,6 +193,7 @@
                .attr('x2', function(d) { return d.target.x; })
                .attr('y2', function(d) { return d.target.y; });
 
+        // keep the nodes in the box
         fd.node.attr("transform", function(d) {
           var dx = Math.max(30, Math.min(fd.width - 30, d.x)),
               dy = Math.max(30, Math.min(fd.height - 30, d.y));
