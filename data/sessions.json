@@ -1,0 +1,702 @@
+[
+    {
+        "sessHref": "speakers/alex_russell.html#session",
+        "session": "Service Workers: Offline Now(ish)!",
+        "spkrHref": "speakers/alex_russell.html",
+        "speaker": "Alex Russell, Google",
+        "room": "Grand A",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "alex_russell"
+    },
+    {
+        "sessHref": "speakers/peter-paul_koch.html#session",
+        "session": "The Mobile Viewports",
+        "spkrHref": "speakers/peter-paul_koch.html",
+        "speaker": "Peter-Paul Koch, QuirksMode.org",
+        "room": "Grand C",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "peter-paul_koch"
+    },
+    {
+        "sessHref": "speakers/christian_heilmann.html#session",
+        "session": "Write less, achieve meh",
+        "spkrHref": "speakers/christian_heilmann.html",
+        "speaker": "Christian Heilmann, Mozilla",
+        "room": "Grand B",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "christian_heilmann"
+    },
+    {
+        "sessHref": "speakers/steve_souders.html#session",
+        "session": "High Performance Web Components",
+        "spkrHref": "speakers/steve_souders.html",
+        "speaker": "Steve Souders, Fastly",
+        "room": "Grand A",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "steve_souders"
+    },
+    {
+        "sessHref": "speakers/ted_livingston.html#session",
+        "session": "An Insiders View of Messaging – and Why It Matters",
+        "spkrHref": "speakers/ted_livingston.html",
+        "speaker": "Ted Livingston, Kik",
+        "room": "Grand B",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "kik"
+    },
+    {
+        "sessHref": "speakers/ilya_grigorik.html#session",
+        "session": "Making Web Fonts Fast(er)",
+        "spkrHref": "speakers/ilya_grigorik.html",
+        "speaker": "Ilya Grigorik, Google",
+        "room": "Grand C",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "ilya_grigorik"
+    },
+    {
+        "sessHref": "speakers/steve_newcomb.html#session",
+        "session": "Famo.us is for Everyone",
+        "spkrHref": "speakers/steve_newcomb.html",
+        "speaker": "Steve Newcomb, CEO Famo.us",
+        "room": "Grand A",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "steve_newcomb"
+    },
+    {
+        "sessHref": "speakers/kyle_simpson.html#session",
+        "session": "Syncing Async",
+        "spkrHref": "speakers/kyle_simpson.html",
+        "speaker": "Kyle Simpson, Getify Solutions, Inc.",
+        "room": "Grand B",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "kyle_simpson"
+    },
+    {
+        "sessHref": "speakers/frank_greco.html#session",
+        "session": "WebSocket - Past, Present and Future",
+        "spkrHref": "speakers/frank_greco.html",
+        "speaker": "Frank Greco, Kaazing",
+        "room": "Grand A",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "frank_greco"
+    },
+    {
+        "sessHref": "speakers/rob_dodson.html#session",
+        "session": "Polymer, the Gateway Drug to Designer-Developer Happiness",
+        "spkrHref": "speakers/rob_dodson.html",
+        "speaker": "Rob Dodson, Google",
+        "room": "Grand C",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "rob_dodson"
+    },
+    {
+        "sessHref": "speakers/tom_wiltzius.html#session",
+        "session": "Jank Busting in Chrome",
+        "spkrHref": "speakers/tom_wiltzius.html",
+        "speaker": "Tom Wiltzius, Google",
+        "room": "Pacific E & J",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "tom_wiltzius"
+    },
+    {
+        "sessHref": "speakers/doris_chen.html#session",
+        "session": "Practical Performance Tips and Tricks to Make Your HTML/JavaScript Apps Faster",
+        "spkrHref": "speakers/doris_chen.html",
+        "speaker": "Doris Chen, Microsoft",
+        "room": "Grand B",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "doris_chen"
+    },
+    {
+        "sessHref": "speakers/tony_parisi.html#session",
+        "session": "glam: a Declarative Language for 3D Web Content",
+        "spkrHref": "speakers/tony_parisi.html",
+        "speaker": "Tony Parisi, Vizi",
+        "room": "Pacific D & K",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "tony_parisi"
+    },
+    {
+        "sessHref": "speakers/daniel_austin.html#session",
+        "session": "HTML5, HTTP/2, and You",
+        "spkrHref": "speakers/daniel_austin.html",
+        "speaker": "Daniel Austin, PayPal",
+        "room": "Grand B",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "daniel_austin"
+    },
+    {
+        "sessHref": "speakers/paul_fischer.html#session",
+        "session": "Debugging an HTML5 hybrid mobile app – Could anything be easier!?",
+        "spkrHref": "speakers/paul_fischer.html",
+        "speaker": "Paul Fischer, Intel",
+        "room": "Pacific N",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "paul_fischer"
+    },
+    {
+        "sessHref": "speakers/dan_lynch.html#session",
+        "session": "Large-scale end-to-end JavaScript",
+        "spkrHref": "speakers/dan_lynch.html",
+        "speaker": "Dan Lynch, Brandcast",
+        "room": "Grand A",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "dan_lynch"
+    },
+    {
+        "sessHref": "speakers/jen_kramer.html#session",
+        "session": "Bootstrap",
+        "spkrHref": "speakers/jen_kramer.html",
+        "speaker": "Jen Kramer",
+        "room": "TBD",
+        "sessTime": "TBD",
+        "sortTime": "",
+        "spriteClass": "jen_kramer"
+    },
+    {
+        "sessHref": "speakers/michael_jackson.html#session",
+        "session": "Building Ambitious Web Applications with Ember.js",
+        "spkrHref": "speakers/michael_jackson.html",
+        "speaker": "Michael Jackson, HUM",
+        "room": "Bayview A",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "michael_jackson"
+    },
+    {
+        "sessHref": "speakers/xavier_damman.html#session",
+        "session": "Automatically remove unused CSS rules",
+        "spkrHref": "speakers/xavier_damman.html",
+        "speaker": "Xavier Damman, Storify",
+        "room": "Bayview A",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "xavier_damman"
+    },
+    {
+        "sessHref": "speakers/kevin_nilson.html#session",
+        "session": "Bringing Web content to the Big Screen with Google Cast",
+        "spkrHref": "speakers/kevin_nilson.html",
+        "speaker": "Kevin Nilson, Google",
+        "room": "Pacific D & K",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "kevin_nilson"
+    },
+    {
+        "sessHref": "speakers/tyler_benziger.html#session",
+        "session": "JS Legos: Reusable UI Patterns in JavaScript",
+        "spkrHref": "speakers/tyler_benziger.html",
+        "speaker": "Tyler Benziger, Adobe",
+        "room": "Grand C",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "tyler_benziger"
+    },
+    {
+        "sessHref": "speakers/johnny_halife.html#session",
+        "session": "High Scalablity Lessons Learnt",
+        "spkrHref": "speakers/johnny_halife.html",
+        "speaker": "Johnny Halife, Mural.ly ",
+        "room": "Pacific D & K",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "johnny_halife"
+    },
+    {
+        "sessHref": "speakers/demian_borba.html#session",
+        "session": "Creating mobile apps with Cordova for iOS, Android and BlackBerry 10",
+        "spkrHref": "speakers/demian_borba.html",
+        "speaker": "Demian Borba, BlackBerry",
+        "room": "Pacific LM",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "demian_borba"
+    },
+    {
+        "sessHref": "speakers/brad_westfall.html#session",
+        "session": "Play nice with CSS tools and Methodologies",
+        "spkrHref": "speakers/brad_westfall.html",
+        "speaker": "Brad Westfall, AZPixels",
+        "room": "Grand C",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "brad_westfall"
+    },
+    {
+        "sessHref": "speakers/mike_acton.html#session",
+        "session": "Making (console) games in the browser",
+        "spkrHref": "speakers/mike_acton.html",
+        "speaker": "Mike Acton, Insomniac Games",
+        "room": "Bayview B",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "mike_acton"
+    },
+    {
+        "sessHref": "speakers/benjamin_farrell.html#session",
+        "session": "Creative Node.js",
+        "spkrHref": "speakers/benjamin_farrell.html",
+        "speaker": "Benjamin Farrell, GE",
+        "room": "Grand B",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "benjamin_farrell"
+    },
+    {
+        "sessHref": "speakers/nick_desaulniers.html#session",
+        "session": "Raw WebGL",
+        "spkrHref": "speakers/nick_desaulniers.html",
+        "speaker": "Nick Desaulniers, Mozilla",
+        "room": "Pacific D & K",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "nick_desaulniers"
+    },
+    {
+        "sessHref": "speakers/liz_lee.html#session",
+        "session": "Freakin' Whitespace!: Building a JavaScript Style Guide",
+        "spkrHref": "speakers/liz_lee.html",
+        "speaker": "Liz Lee, Wikia",
+        "room": "Pacific E & J",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "liz_lee"
+    },
+    {
+        "sessHref": "speakers/marc_grabanski.html#session",
+        "session": "Whirlwind Tour of Scalable Vector Graphics",
+        "spkrHref": "speakers/marc_grabanski.html",
+        "speaker": "Marc Grabanski, MJG International",
+        "room": "Pacific O",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "marc_grabanski"
+    },
+    {
+        "sessHref": "speakers/ash_blue.html#session",
+        "session": "AI Pathfinding for JavaScript Developers",
+        "spkrHref": "speakers/ash_blue.html",
+        "speaker": "Ash Blue, Clever Crow Games",
+        "room": "Bayview A",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "ash_blue"
+    },
+    {
+        "sessHref": "speakers/don_olmstead.html#session",
+        "session": "Dart for Game Developers",
+        "spkrHref": "speakers/don_olmstead.html",
+        "speaker": "Don Olmstead, Sony Network Entertainment",
+        "room": "Pacific LM",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "don_olmstead"
+    },
+    {
+        "sessHref": "speakers/volkan_ozcelik.html#session",
+        "session": "The Secrets of High-Performance Mobile JavaScript Applications",
+        "spkrHref": "speakers/volkan_ozcelik.html",
+        "speaker": "Volkan Ozcelik, Jive Software",
+        "room": "Grand C",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "volkan_ozcelik"
+    },
+    {
+        "sessHref": "speakers/ian_jacobs.html#session",
+        "session": "",
+        "spkrHref": "speakers/ian_jacobs.html",
+        "speaker": "Ian Jacobs, W3C",
+        "room": "TBD",
+        "sessTime": "TBD",
+        "sortTime": "10000",
+        "spriteClass": "ian_jacobs"
+    },
+    {
+        "sessHref": "speakers/erin_swenson-healey.html#session",
+        "session": "Hanging Up On Callbacks: Generators in ECMAScript 6",
+        "spkrHref": "speakers/erin_swenson-healey.html",
+        "speaker": "Erin Swenson-Healey, Carbon Five",
+        "room": "Pacific E & J",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "erin_swenson-healey"
+    },
+    {
+        "sessHref": "speakers/benoit_marchant.html#session",
+        "session": "Looking beyond frameworks",
+        "spkrHref": "speakers/benoit_marchant.html",
+        "speaker": "Benoit Marchant, Montage Studio",
+        "room": "Pacific LM",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "benoit_marchant"
+    },
+    {
+        "sessHref": "speakers/mark_stuart.html#session",
+        "session": "Web Security in Node.js and JavaScript Apps (SPAs)",
+        "spkrHref": "speakers/mark_stuart.html",
+        "speaker": "Mark Stuart, PayPal",
+        "room": "Grand C",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "mark_stuart"
+    },
+    {
+        "sessHref": "speakers/michael_anthony.html#session",
+        "session": "Racer - A Chrome Experiment",
+        "spkrHref": "speakers/michael_anthony.html",
+        "speaker": "Michael Anthony, Active Theory",
+        "room": "Bayview B",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "michael_anthony"
+    },
+    {
+        "sessHref": "speakers/parris_khachi.html#session",
+        "session": "Fast, bullet proof builds (taming grunt  &  npm)",
+        "spkrHref": "speakers/parris_khachi.html",
+        "speaker": "Parris Khachi, Eventbrite",
+        "room": "Bayview A",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "parris_khachi"
+    },
+    {
+        "sessHref": "speakers/jafar_husain.html#session",
+        "session": "Async JS at Netflix",
+        "spkrHref": "speakers/jafar_husain.html",
+        "speaker": "Jafar Husain, Netflix",
+        "room": "Grand A",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "jafar_husain"
+    },
+    {
+        "sessHref": "speakers/masa_tanaka.html#session",
+        "session": "Using PhoneGap to Develop Incredible HTML5 hybrid mobile apps",
+        "spkrHref": "speakers/masa_tanaka.html",
+        "speaker": "Masa Tanaka, Monaca  &  Onsen UI",
+        "room": "Pacific O",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "masa_tanaka"
+    },
+    {
+        "sessHref": "speakers/david_greenspan.html#session",
+        "session": "Reactive Templating for Everyone",
+        "spkrHref": "speakers/david_greenspan.html",
+        "speaker": "David Greenspan, Meteor",
+        "room": "Pacific O",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "david_greenspan"
+    },
+    {
+        "sessHref": "speakers/julian_bucknall.html#session",
+        "session": "Breaking Bad: you CAN make secure fast web pages",
+        "spkrHref": "speakers/julian_bucknall.html",
+        "speaker": "Julian Bucknall, DevExpress",
+        "room": "Pacific N",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "julian_bucknall"
+    },
+    {
+        "sessHref": "speakers/mehul_harry.html#session",
+        "session": "Write Once, Deploy to Multiple Mobile Platforms",
+        "spkrHref": "speakers/mehul_harry.html",
+        "speaker": "Mehul Harry, DevExpress",
+        "room": "Pacific N",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "mehul_harry"
+    },
+    {
+        "sessHref": "speakers/peter_jensen.html#session",
+        "session": "SIMD Programming in JavaScript",
+        "spkrHref": "speakers/peter_jensen.html",
+        "speaker": "Peter Jensen, Intel Corporation",
+        "room": "Pacific LM",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "peter_jensen"
+    },
+    {
+        "sessHref": "speakers/ryan_anklam.html#session",
+        "session": "Stop Making Excuses and Start Testing Your JavaScript!",
+        "spkrHref": "speakers/ryan_anklam.html",
+        "speaker": "Ryan Anklam, Netflix",
+        "room": "Grand B",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "ryan_anklam"
+    },
+    {
+        "sessHref": "speakers/sirar_salih.html#session",
+        "session": "TDD with AngularJS and TypeScript",
+        "spkrHref": "speakers/sirar_salih.html",
+        "speaker": "Sirar Salih, Itera Norway",
+        "room": "Bayview A",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "sirar_salih"
+    },
+    {
+        "sessHref": "speakers/wayne_carter.html#session",
+        "session": "Learn how to build a new breed of always-available mobile apps",
+        "spkrHref": "speakers/wayne_carter.html",
+        "speaker": "Wayne Carter, Couchbase",
+        "room": "Pacific N",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "wayne_carter"
+    },
+    {
+        "sessHref": "speakers/michael_dailly.html#session",
+        "session": "Optimising your game with WebGL",
+        "spkrHref": "speakers/michael_dailly.html",
+        "speaker": "Michael Dailly, YoYo Games Ltd",
+        "room": "Bayview B",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "michael_dailly"
+    },
+    {
+        "sessHref": "speakers/mathew_groves.html#session",
+        "session": "2D or not 2D",
+        "spkrHref": "speakers/mathew_groves.html",
+        "speaker": "Mathew Groves, Goodboy Digital",
+        "room": "Pacific D & K",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "mathew_groves"
+    },
+    {
+        "sessHref": "speakers/frederick_tubiermont.html#session",
+        "session": "Seven reasons why the appstores are doomed (and how html5 can help)",
+        "spkrHref": "speakers/frederick_tubiermont.html",
+        "speaker": "Frederick Tubiermont, adsy.me",
+        "room": "Pacific O",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "frederick_tubiermont"
+    },
+    {
+        "sessHref": "speakers/arin_sime.html#session",
+        "session": "Six Months with WebRTC",
+        "spkrHref": "speakers/arin_sime.html",
+        "speaker": "Arin Sime, AgilityFeat",
+        "room": "Pacific O",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "arin_sime"
+    },
+    {
+        "sessHref": "speakers/david_alfaro.html#session",
+        "session": "Six Months with WebRTC",
+        "spkrHref": "speakers/david_alfaro.html",
+        "speaker": "David Alfaro, AgilityFeat",
+        "room": "Pacific O",
+        "sessTime": "9:00am - 9:50am",
+        "sortTime": "0900",
+        "spriteClass": "david_alfaro"
+    },
+    {
+        "sessHref": "speakers/yurii_luchaninov.html#session",
+        "session": "Optimizing the performance of mobile web apps",
+        "spkrHref": "speakers/yurii_luchaninov.html",
+        "speaker": "Yurii Luchaninov, MobiDev",
+        "room": "Pacific LM",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "yurii_luchaninov"
+    },
+    {
+        "sessHref": "speakers/lisa_deluca.html#session",
+        "session": "Writing Hybrid Mobile Applications using HTML, JS, and CSS and Apache Cordova",
+        "spkrHref": "speakers/lisa_deluca.html",
+        "speaker": "Lisa DeLuca, IBM",
+        "room": "Pacific D & K",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "lisa_deluca"
+    },
+    {
+        "sessHref": "speakers/ross_gerbasi.html#session",
+        "session": "HTML5 for Google Glass",
+        "spkrHref": "speakers/ross_gerbasi.html",
+        "speaker": "Ross Gerbasi, Sencha",
+        "room": "Pacific E & J",
+        "sessTime": "5:00pm - 5:50pm",
+        "sortTime": "1700",
+        "spriteClass": "ross_gerbasi"
+    },
+    {
+        "sessHref": "speakers/reinaldo_ferraz.html#session",
+        "session": "Using WCAG and ARIA for an accessible project",
+        "spkrHref": "speakers/reinaldo_ferraz.html",
+        "speaker": "Reinaldo Ferraz, W3C Brasil",
+        "room": "Bayview B",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "reinaldo_ferraz"
+    },
+    {
+        "sessHref": "speakers/adnan_wahab.html#session",
+        "session": "Visualizing Large Data Sets using WebGL",
+        "spkrHref": "speakers/adnan_wahab.html",
+        "speaker": "Adnan Wahab, Monsoon",
+        "room": "Pacific D & K",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "adnan_wahab"
+    },
+    {
+        "sessHref": "speakers/adrian_roselli.html#session",
+        "session": "Selfish Accessibility",
+        "spkrHref": "speakers/adrian_roselli.html",
+        "speaker": "Adrian Roselli, Algonquin Studios",
+        "room": "Bayview B",
+        "sessTime": "10:40am - 11:30am",
+        "sortTime": "1040",
+        "spriteClass": "adrian_roselli"
+    },
+    {
+        "sessHref": "speakers/parashuram_narasimhan.html#session",
+        "session": "Adding Front end performance testing into continuous integration",
+        "spkrHref": "speakers/parashuram_narasimhan.html",
+        "speaker": "Parashuram Narasimhan, Microsoft Open Technologies Inc.",
+        "room": "Pacific LM",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "parashuram_narasimhan"
+    },
+    {
+        "sessHref": "speakers/jonnie_spratley.html#session",
+        "session": "Learning Yeoman",
+        "spkrHref": "speakers/jonnie_spratley.html",
+        "speaker": "Jonnie Spratley, GE Software",
+        "room": "Bayview A",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "jonnie_spratley"
+    },
+    {
+        "sessHref": "speakers/jeremy_wilken.html#session",
+        "session": "Building Web Components Today",
+        "spkrHref": "speakers/jeremy_wilken.html",
+        "speaker": "Jeremy Wilken, eBay",
+        "room": "Pacific E & J",
+        "sessTime": "2:30pm - 3:20pm",
+        "sortTime": "1430",
+        "spriteClass": "jeremy_wilken"
+    },
+    {
+        "sessHref": "speakers/dave_arel.html#session",
+        "session": "Accelerate your Mobile Application with the GPU",
+        "spkrHref": "speakers/dave_arel.html",
+        "speaker": "Dave Arel, Belly",
+        "room": "Pacific LM",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "dave_arel"
+    },
+    {
+        "sessHref": "speakers/kianosh_pourian.html#session",
+        "session": "Building a UI Framework from Scratch",
+        "spkrHref": "speakers/kianosh_pourian.html",
+        "speaker": "Kianosh Pourian, Cielo Concepts Inc.",
+        "room": "Pacific E & J",
+        "sessTime": "11:40am - 12:30pm",
+        "sortTime": "1140",
+        "spriteClass": "kianosh_pourian"
+    },
+    {
+        "sessHref": "speakers/jairaj_sethi.html#session",
+        "session": "Building mobile web apps that look and feel native [TRAINING CLASS]",
+        "spkrHref": "speakers/jairaj_sethi.html",
+        "speaker": "Jairaj Sethi, Kik",
+        "room": "TBD",
+        "sessTime": "TBD",
+        "sortTime": "10000",
+        "spriteClass": "kik"
+    },
+    {
+        "sessHref": "speakers/rodrigo_fernandez.html#session",
+        "session": "JavaScript powering the dream of the connected home",
+        "spkrHref": "speakers/rodrigo_fernandez.html",
+        "speaker": "Rodrigo Fernandez, Walmart Labs",
+        "room": "Pacific E & J",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "rodrigo_fernandez"
+    },
+    {
+        "sessHref": "speakers/mark_lassoff.html#session",
+        "session": "Hadouken! Javascript Game Development with createJS",
+        "spkrHref": "speakers/mark_lassoff.html",
+        "speaker": "Mark Lassoff, LearnToProgram Media",
+        "room": "TBD",
+        "sessTime": "TBD",
+        "sortTime": "10000",
+        "spriteClass": "mark_lassoff"
+    },
+    {
+        "sessHref": "speakers/jonathan_smiley.html#session",
+        "session": "Mobile Design But For Reals This Time",
+        "spkrHref": "speakers/jonathan_smiley.html",
+        "speaker": "Jonathan Smiley, ZURB",
+        "room": "Bayview A",
+        "sessTime": "4:00pm - 4:50pm",
+        "sortTime": "1600",
+        "spriteClass": "jonathan_smiley"
+    },
+    {
+        "sessHref": "speakers/tom_coleman.html#session",
+        "session": "Building modern applications with Meteor",
+        "spkrHref": "speakers/tom_coleman.html",
+        "speaker": "Tom Coleman, Meteor",
+        "room": "TBD",
+        "sessTime": "TBD",
+        "sortTime": "10000",
+        "spriteClass": "tom_coleman"
+    },
+    {
+        "sessHref": "speakers/jeff_jenkins.html#session",
+        "session": "Experiments in D3: Financial Visualization in the Enterprise",
+        "spkrHref": "speakers/jeff_jenkins.html",
+        "speaker": "Jeff Jenkins, Presence",
+        "room": "Pacific O",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "jeff_jenkins"
+    },
+    {
+        "sessHref": "speakers/bianca_gandolfo.html#session",
+        "session": "JavaScript Clarity in Under a Day",
+        "spkrHref": "speakers/bianca_gandolfo.html",
+        "speaker": "Bianca Gandolfo, Hackreactor",
+        "room": "Pacific O",
+        "sessTime": "1:30pm - 2:20pm",
+        "sortTime": "1330",
+        "spriteClass": "bianca_gandolfo"
+    }
+]
