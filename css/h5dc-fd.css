@@ -121,9 +121,12 @@ g.speaker { cursor: pointer; }
 }
 
 .fd-popup {
-    background: rgb(238,238,238);
-    background-image:    -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
-    background-image:         linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background: white;
+    background: -webkit-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:    -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:     -ms-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:      -o-linear-gradient(top, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
+    background:   linear-gradient(to bottom, rgb(255,255,255) 0%, rgb(238,238,238) 100%);
     border: 1px solid #ddd;
     border-radius: 4px;
     cursor: move;
@@ -264,3 +267,5 @@ div.img {
 .wayne_carter { background-position: -1920px -480px}
 .xavier_damman { background-position: -1320px -480px}
 .yurii_luchaninov { background-position: -1440px -480px}
+
+
